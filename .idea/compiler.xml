@@ -9,6 +9,7 @@
         <module name="eurekaServer" />
         <module name="checkoutService" />
         <module name="configServer" />
+        <module name="gateway" />
         <module name="productService" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="checkoutService" options="-parameters" />
       <module name="configServer" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="productService" options="-parameters" />
     </option>
   </component>
