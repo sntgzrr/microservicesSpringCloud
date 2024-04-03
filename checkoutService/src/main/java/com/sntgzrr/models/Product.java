@@ -3,9 +3,8 @@ package com.sntgzrr.models;
 public class Product {
     private String id;
     private String name;
-    private Double price;
+    private double price;
     private String instance;
-
 
     public String getInstance() {
         return instance;

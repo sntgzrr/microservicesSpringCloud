@@ -3,7 +3,7 @@ package com.sngtzrr.models;
 public class Product {
     private String id;
     private String name;
-    private Double price;
+    private double price;
     private String instance;
 
     public Product(String id, String name, Double price, String instance) {
