@@ -1,6 +1,5 @@
 package com.sntgzrr.controllers;
 
-import com.netflix.discovery.converters.Auto;
 import com.sntgzrr.models.Payment;
 import com.sntgzrr.services.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
