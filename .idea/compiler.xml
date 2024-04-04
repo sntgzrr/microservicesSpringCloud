@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="paymentsService" />
+        <module name="configServer" />
+        <module name="notificationsService" />
         <module name="eurekaServer" />
         <module name="checkoutService" />
-        <module name="configServer" />
         <module name="gateway" />
         <module name="productService" />
       </profile>
@@ -20,6 +22,8 @@
       <module name="configServer" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="notificationsService" options="-parameters" />
+      <module name="paymentsService" options="-parameters" />
       <module name="productService" options="-parameters" />
     </option>
   </component>
